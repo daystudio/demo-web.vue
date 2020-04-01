@@ -32,15 +32,14 @@
             <v-list-item-subtitle>{{r.t}}</v-list-item-subtitle>
           </v-list-item-content>
         </v-list-item>
-
+        <v-card-text>
+          {{r.c}}
+        </v-card-text>
         <v-img
           :src="r.i"
           height="240"
         />
 
-        <v-card-text>
-          {{r.c}}
-        </v-card-text>
 
       </v-card>
       <v-bottom-sheet
